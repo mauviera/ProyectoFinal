@@ -1,0 +1,24 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1544306094-e2dcf9479da3); }
+
+.title {
+  text-align: center; }
+
+#rickandmorty-input {
+  border-radius: 5px;
+  border: 0px solid #eee;
+  margin-left: 45%; }
+
+#btn-submit {
+  padding: 5px 15px;
+  background: #ccc;
+  border: 0 none;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
+
+.card-img {
+  margin-left: 42%; }
+
+.card-container {
+  text-align: center; }
