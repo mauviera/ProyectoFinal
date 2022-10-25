@@ -10,33 +10,54 @@
 <body>
     <main class="flex-container">
         <h1 class="title">Rick and Morty</h1>
-        <form class="flex-form" action="">
-            <input id="rickandmorty-input" type="text" required minlength="1" maxlength="30" placeholder="Character Name or ID">
-            <input id="btn-submit" type="button" value="Send">
-        </form>
-        <div id="card">
-            <img class="card-img" src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" id="pj-img">
-            <div class="card-container">
-                <p id="name"></p>
-                <p class="pj-name item-content">Name:</p>
-                <p class="item-info" id="content-name"></p>
-                <p class="pj-status item-content">Status:</p>
-                <p class="item-info" id="content-status"></p>
-                <p class="pj-species item-content">Species:</p>
-                <p class="item-info" id="content-species"></p>
-                <p class="pj-type item-content">Type:</p>
-                <p class="item-info" id="content-type"></p>
-                <p class="pj-gender item-content">Gender:</p>
-                <p class="item-info" id="content-gender"></p>
+        <div class="card-container">
+            <div class="card card-1" id="main-card">
+              <div class="card-img"></div>
+              <a href="#" class="card-link">
+                <div class="card-img-hovered"></div>
+              </a>
+              <div class="card-info">
+                <div class="card-about">
+                  <a class="card-tag tag-news" id="status-1"></a>
+                <div class="card-time" id="specie-1"></div>
+                </div>
+                <h1 class="card-title" id="name-1"></h1>
+                <div class="card-creator"> <a href="#"></a></div>
+              </div>
             </div>
+              <div class="card card-2" id="main-card-2">
+              <div class="card-img"></div>
+              <a href="#" class="card-link">
+                <div class="card-img-hovered"></div>
+              </a>
+              <div class="card-info">
+                <div class="card-about">
+                  <a class="card-tag tag-deals" id="status-2"></a>
+                <div class="card-time" id="specie-2"></div>
+                </div>
+                <h1 class="card-title" id="name-2"></h1>
+                <div class="card-creator"> <a href="#"></a></div>
+              </div>
+            </div>
+            <div class="card card-4" id="main-card-3">
+              <div class="card-img"></div>
+              <a href="#" class="card-link">
+                <div class="card-img-hovered"></div>
+              </a>
+              <div class="card-info">
+                <div class="card-about">
+                  <a class="card-tag tag-politics" id="status-3"></a>
+                <div class="card-time" id="specie-3"></div>
+                </div>
+                <h1 class="card-title" id="name-3"></h1>
+                <div class="card-creator"> <a href="#"></a></div>
+              </div>
+            </div>
+            <h1 class="card-description-text" id="card-description"></h1>
         </div>
-        <div id="card-error">character not found...</div>
     </main>
 
-
-
-
-
     <script src="/js/main.js"></script>
+    <script src="/js/data.js"></script>
 </body>
 </html>
