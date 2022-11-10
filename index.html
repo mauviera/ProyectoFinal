@@ -10,54 +10,66 @@
 <body>
     <main class="flex-container">
         <h1 class="title">Rick and Morty</h1>
+        <h1 class="card-location-title">Click to see where this character lives:</h1>
+        <br />
+        <h1 class="card-location-text" id="card-location"></h1>
         <div class="card-container">
-            <div class="card card-1" id="main-card">
-              <div class="card-img"></div>
+            <div class="card card-0" id="main-card-0">
               <a href="#" class="card-link">
-                <div class="card-img-hovered"></div>
+                <div class="card-img" id="card-img-0"></div>
               </a>
               <div class="card-info">
                 <div class="card-about">
-                  <a class="card-tag tag-news" id="status-1"></a>
+                  <a class="card-tag" id="status-0"></a>
+                <div class="card-time" id="specie-0"></div>
+                </div>
+                <h1 class="card-title" id="name-0"></h1>
+                <div class="card-creator"> <a href="#"></a></div>
+              </div>
+            </div>
+              <div class="card card-1" id="main-card-1">
+              <a href="#" class="card-link">
+                <div class="card-img" id="card-img-1"></div>
+              </a>
+              <div class="card-info">
+                <div class="card-about">
+                  <a class="card-tag" id="status-1"></a>
                 <div class="card-time" id="specie-1"></div>
                 </div>
                 <h1 class="card-title" id="name-1"></h1>
                 <div class="card-creator"> <a href="#"></a></div>
               </div>
             </div>
-              <div class="card card-2" id="main-card-2">
-              <div class="card-img"></div>
+            <div class="card card-2" id="main-card-2">
               <a href="#" class="card-link">
-                <div class="card-img-hovered"></div>
+                <div class="card-img" id="card-img-2"></div>
               </a>
               <div class="card-info">
                 <div class="card-about">
-                  <a class="card-tag tag-deals" id="status-2"></a>
+                  <a class="card-tag" id="status-2"></a>
                 <div class="card-time" id="specie-2"></div>
                 </div>
                 <h1 class="card-title" id="name-2"></h1>
                 <div class="card-creator"> <a href="#"></a></div>
               </div>
             </div>
-            <div class="card card-4" id="main-card-3">
-              <div class="card-img"></div>
+            <div class="card card-3" id="main-card-3">
               <a href="#" class="card-link">
-                <div class="card-img-hovered"></div>
+                <div class="card-img" id="card-img-3"></div>
               </a>
               <div class="card-info">
                 <div class="card-about">
-                  <a class="card-tag tag-politics" id="status-3"></a>
+                  <a class="card-tag" id="status-3"></a>
                 <div class="card-time" id="specie-3"></div>
                 </div>
                 <h1 class="card-title" id="name-3"></h1>
                 <div class="card-creator"> <a href="#"></a></div>
               </div>
             </div>
-            <h1 class="card-description-text" id="card-description"></h1>
-        </div>
+          </div>
     </main>
 
     <script src="/js/main.js"></script>
-    <script src="/js/data.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
 </body>
 </html>
